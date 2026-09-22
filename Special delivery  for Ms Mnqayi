@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Delivery For You</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #fcefd2; color: #3b2314; margin: 0; padding: 20px; display: flex; justify-content: center; }
+        .container { max-width: 600px; width: 100%; background-color: #fffaf0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); padding: 20px; box-sizing: border-box; }
+        section { padding: 20px 0; border-bottom: 1px dashed #b57c1e; }
+        .hero { background-color: #f7d070; padding: 30px; border-radius: 8px; text-align: center; }
+        h1 { color: #b57c1e; font-style: italic; margin-top: 0; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 15px; margin-top: 15px; }
+        .card { border: 2px solid #3b2314; border-radius: 12px; padding: 15px; background: #ffffff; }
+        .timeline { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .timeline td { padding: 10px; border-bottom: 1px solid #ebd2aa; }
+        .time { font-weight: bold; color: #b57c1e; width: 80px; }
+        .footer { text-align: center; padding-top: 20px; font-weight: bold; color: #7fa99b; font-size: 1.2em; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <section class="hero">
+        <h1>A Special Delivery For You</h1>
+        <div style="background: white; padding: 15px; border-radius: 4px;">
+            <p><strong>Dear Relationship Mapang:</strong></p>
+            <p>You are formally invited to a special date down memory lane.<br>A sunset picnic and a movie night with your favorite person.</p>
+            <p><em>From: Rorisang Kgatle</em></p>
+        </div>
+    </section>
+    <section>
+        <h2>The Basic Stuff</h2>
+        <div class="grid">
+            <div class="card"><strong>Dress Code:</strong> Sundress and Sandals (Dress pretty and look gorgeous)</div>
+            <div class="card"><strong>Menu:</strong> Serving all your favorites. Chilled drinks included!</div>
+            <div class="card"><strong>Song Requests:</strong> You can play anything you want!</div>
+        </div>
+    </section>
+    <section>
+        <h2>What's Going Down</h2>
+        <p><strong>16th of October</strong> (Sunset location revealed upon RSVP)</p>
+        <table class="timeline">
+            <tr><td class="time">15:00 PM</td><td>Arrival and Welcome drinks</td></tr>
+            <tr><td class="time">17:00 PM</td><td>Golden hour</td></tr>
+            <tr><td class="time">18:00 PM</td><td>Sunset and Twilight wrap up</td></tr>
+            <tr><td class="time">18:30 PM</td><td>The picnic is over but our date continues</td></tr>
+        </table>
+    </section>
+    <section>
+        <h2>Questions & RSVP</h2>
+        <p>Interact with the application framework below to confirm your attendance:</p>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 100%; box-shadow: 0 2px 8px rgba(0,0,0,0.1); margin: 20px 0; overflow: hidden; border-radius: 8px;">
+            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;" src="https://claude.ai" allowfullscreen="allowfullscreen"></iframe>
+        </div>
+        <p>Bring nothing except your gorgeous self and good energy. After the sunset, we can head back to freshen up and catch a movie.</p>
+    </section>
+    <div class="footer">Can't wait to see you there!</div>
+</div>
+</body>
+</html>
